@@ -1,0 +1,11 @@
+.claude/settings.local.json
+.vscode
+.idea
+*.DS_Store
+/my-issue2md-project
+
+# 构建产物
+/issue2md
+/issue2md.exe
+/bin/
+/dist/
