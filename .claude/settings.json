@@ -17,21 +17,23 @@
  "Bash(go:test:*)",
  "Bash(gofmt:*)",
  "Bash(goimports:*)",
- "Bash(golangci-lint:run:*)"
- ],
- "ask": [
- "Write",
- "Edit",
- "MultiEdit",
+ "Bash(golangci-lint:run:*)",
  "Bash(go:get:*)",
  "Bash(go:mod:tidy)",
  "Bash(git:add:*)",
- "Bash(git:commit:*)"
+ "Bash(git:commit:*)",
+ "Write",
+ "Edit",
+ "MultiEdit"
+ ],
+ "ask": [
+ "Bash(rm:*)",
+ "Bash(git:push:*)"
  ],
  "deny": [
  "Read(./.env*)",
- "Read(*.pem)", "Read(*.key)", "Bash(rm:*)",
- "Bash(git:push:*)",
+ "Read(*.pem)",
+ "Read(*.key)",
  "WebFetch"
  ]
  }
